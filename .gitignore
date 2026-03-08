@@ -1,0 +1,25 @@
+# traffic captures
+*.pcap
+*.pcapng
+*.parquet
+*.joblib
+
+# datasets
+*.csv
+*.zip
+
+# models
+*.pkl
+
+# dataset folders
+cic ids 2017 kaggle/
+ctu 13 kaggle/
+uploads/
+
+# outputs
+eda_outputs/
+soc_results/
+shap_gbm/
+shap_topN/
+if_models/
+if_explain/
