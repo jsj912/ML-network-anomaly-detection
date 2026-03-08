@@ -1,0 +1,108 @@
+{
+  "alert_index": 3,
+  "base_row": {
+    "alert_index": 3,
+    "rerank_score": 0.9999777206629576,
+    "if_score": -0.0453860375619939,
+    "lof_score": 1.287430333102194,
+    "label_bin": 1
+  },
+  "gbm_png": "C:\\Users\\ruhan\\Documents\\secutiy mini proj\\shap_gbm\\gbm_shap_alert_3.png",
+  "gbm_json": null,
+  "if_ablation": {
+    "top_index": 3,
+    "base_score": -0.04538603756199394,
+    "deltas": [
+      {
+        "feature": "avg_pkt_size",
+        "delta": -0.047903876491056596
+      },
+      {
+        "feature": "log_pkt_rate",
+        "delta": 0.007847815898336608
+      },
+      {
+        "feature": "pkt_rate",
+        "delta": 0.003934345262597894
+      },
+      {
+        "feature": "log_avg_pkt_size",
+        "delta": 0.002806718799966912
+      },
+      {
+        "feature": "flow_iat_std",
+        "delta": -0.0020377094857588762
+      },
+      {
+        "feature": "duration",
+        "delta": 0.0018741236697319419
+      },
+      {
+        "feature": "tot_bytes",
+        "delta": 0.001494963565462415
+      },
+      {
+        "feature": "tot_pkts",
+        "delta": 0.0011774641743704795
+      },
+      {
+        "feature": "fwd_bwd_ratio",
+        "delta": -0.0005868786859267727
+      },
+      {
+        "feature": "log_byte_rate",
+        "delta": 0.0003333174046826204
+      }
+    ]
+  },
+  "if_zscores": {
+    "top_index": 3,
+    "top_z": [
+      {
+        "feature": "avg_pkt_size",
+        "z": 6.120233694756422
+      },
+      {
+        "feature": "log_avg_pkt_size",
+        "z": 2.0225349063480396
+      },
+      {
+        "feature": "duration",
+        "z": 0.34645243454724034
+      },
+      {
+        "feature": "log_byte_rate",
+        "z": 0.2842696029079276
+      },
+      {
+        "feature": "flow_iat_std",
+        "z": 0.20226611217763055
+      },
+      {
+        "feature": "fwd_bwd_ratio",
+        "z": 0.19871950961427637
+      },
+      {
+        "feature": "flow_iat_mean",
+        "z": 0.1896223802515768
+      },
+      {
+        "feature": "log_pkt_rate",
+        "z": 0.09620799709475929
+      },
+      {
+        "feature": "tot_pkts",
+        "z": 0.05800683895520029
+      },
+      {
+        "feature": "pkt_rate",
+        "z": 0.04476167203023414
+      }
+    ]
+  },
+  "if_lof": {
+    "top_index": 3.0,
+    "lof_score": 1.287430333102194
+  },
+  "generated_at": 1764272158.0948274
+}
